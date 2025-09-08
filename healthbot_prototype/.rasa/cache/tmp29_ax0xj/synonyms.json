@@ -1,0 +1,11 @@
+{
+  "malaria": "malaria",
+  "dengue": "dengue",
+  "tb": "TB",
+  "diabetes": "diabetes",
+  "covid": "covid",
+  "tuberculosis": "tuberculosis",
+  "polio": "polio",
+  "measles": "measles",
+  "bcg": "BCG"
+}

@@ -1,0 +1,17 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohv7QkqSg1MTs+MSe1qKS2NhYA864fQg==": "action_check_outbreak_alert",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohv7QkqSg1MTs+MSe1qKSWOMOSM1KTs+PRtBI0OhYATXtCdQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhLDE5OTMvEaymODkjNaU0J7W2NhYAteUhqQ==": "action_provide_vaccination_schedule",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhLDE5OTMvEaymODkjNaU0J7WWOCMLivLLMlNS47EaQaRFsQDmH0ql": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuDK3oCQ/tzg+My8tv7Y2FgDWuh8F": "action_provide_symptoms_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhuDK3oCQ/tzg+My8tv5Y4swqK8ssyU1LjUfUSMjoWAC4sQrk=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBpBPIyCxLjS/JLCiurY0FABTdH9U=": "action_provide_preventive_tips",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBpBPIyCxLjS/JLCiuJc60gqL8ssyU1Hh03YSNjwUAx4dFKQ==": "action_listen"
+  }
+}

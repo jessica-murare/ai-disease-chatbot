@@ -1,0 +1,6 @@
+rasa==3.6.0
+rasa-sdk==3.6.0
+transformers
+torch
+googletrans==4.0.0-rc1
+sentencepiece
