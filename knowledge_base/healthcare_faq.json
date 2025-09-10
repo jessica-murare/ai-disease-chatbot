@@ -1,0 +1,140 @@
+{
+  "preventive_tips": {
+    "malaria": {
+      "english": "To prevent malaria: Use mosquito nets, apply repellents, eliminate standing water, wear long sleeves during evening hours, and take prescribed antimalarial medication if traveling to endemic areas.",
+      "hindi": "मलेरिया से बचाव: मच्छरदानी का उपयोग करें, रिपेलेंट लगाएं, रुके हुए पानी को हटाएं, शाम के समय फुल बांह के कपड़े पहनें, और स्थानिक क्षेत्रों में जाते समय निर्धारित दवा लें।"
+    },
+    "dengue": {
+      "english": "Dengue prevention: Remove standing water from containers, use mosquito repellents, wear protective clothing, use air conditioning or window screens, and maintain good sanitation.",
+      "hindi": "डेंगू से बचाव: बर्तनों से रुका हुआ पानी हटाएं, मच्छर भगाने वाली दवा का उपयोग करें, सुरक्षात्मक कपड़े पहनें, एसी या जाली का उपयोग करें, और सफाई बनाए रखें।"
+    },
+    "tuberculosis": {
+      "english": "TB prevention: Maintain good ventilation, avoid crowded places, maintain hygiene, eat nutritious food, exercise regularly, and get vaccinated (BCG).",
+      "hindi": "टीबी से बचाव: अच्छी हवा का प्रबंध रखें, भीड़भाड़ वाली जगहों से बचें, साफ-सफाई रखें, पौष्टिक भोजन लें, नियमित व्यायाम करें, और BCG टीका लगवाएं।"
+    },
+    "diabetes": {
+      "english": "Diabetes prevention: Maintain healthy weight, exercise regularly, eat balanced diet, limit sugar intake, avoid processed foods, and get regular check-ups.",
+      "hindi": "डायबिटीज से बचाव: स्वस्थ वजन बनाए रखें, नियमित व्यायाम करें, संतुलित आहार लें, चीनी कम खाएं, प्रोसेस्ड फूड से बचें, और नियमित जांच कराएं।"
+    },
+    "hypertension": {
+      "english": "High blood pressure prevention: Reduce salt intake, maintain healthy weight, exercise regularly, limit alcohol, avoid smoking, manage stress, and eat potassium-rich foods.",
+      "hindi": "हाई ब्लड प्रेशर से बचाव: नमक कम खाएं, स्वस्थ वजन बनाए रखें, नियमित व्यायाम करें, शराब सीमित करें, धूम्रपान न करें, तनाव को नियंत्रित करें, और पोटेशियम युक्त भोजन खाएं।"
+    },
+    "hepatitis": {
+      "english": "Hepatitis prevention: Get vaccinated (Hepatitis A & B), practice safe hygiene, use clean needles, avoid sharing personal items, practice safe sex, and drink clean water.",
+      "hindi": "हेपेटाइटिस से बचाव: टीकाकरण कराएं (हेपेटाइटिस A और B), स्वच्छता का अभ्यास करें, साफ सुइयों का उपयोग करें, निजी सामान साझा न करें, सुरक्षित यौन संबंध बनाएं, और साफ पानी पिएं।"
+    },
+    "heart_disease": {
+      "english": "Heart disease prevention: Maintain healthy diet, exercise regularly, avoid smoking, limit alcohol, manage stress, control blood pressure and cholesterol, and get regular check-ups.",
+      "hindi": "हृदय रोग से बचाव: स्वस्थ आहार लें, नियमित व्यायाम करें, धूम्रपान न करें, शराब सीमित करें, तनाव को नियंत्रित करें, ब्लड प्रेशर और कोलेस्ट्रॉल को नियंत्रित करें, और नियमित जांच कराएं।"
+    }
+  },
+  "symptoms": {
+    "malaria": {
+      "english": "Malaria symptoms include: High fever with chills, severe headache, sweating, fatigue, nausea, vomiting, muscle pain, and sometimes diarrhea. Symptoms appear 10-15 days after mosquito bite.",
+      "hindi": "मलेरिया के लक्षण: कंपकंपी के साथ तेज बुखार, सिरदर्द, पसीना, थकान, जी मिचलाना, उल्टी, मांसपेशियों में दर्द, और कभी-कभी दस्त। लक्षण मच्छर काटने के 10-15 दिन बाद दिखते हैं।"
+    },
+    "dengue": {
+      "english": "Dengue symptoms: High fever, severe headache, pain behind eyes, muscle and joint pain, skin rash, nausea, vomiting. Warning signs: severe abdominal pain, persistent vomiting, bleeding.",
+      "hindi": "डेंगू के लक्षण: तेज बुखार, सिरदर्द, आंखों के पीछे दर्द, मांसपेशियों और जोड़ों में दर्द, त्वचा पर दाने, जी मिचलाना, उल्टी। खतरे के संकेत: पेट में तेज दर्द, लगातार उल्टी, खून निकलना।"
+    },
+    "tuberculosis": {
+      "english": "TB symptoms: Persistent cough (>3 weeks), coughing up blood, chest pain, weight loss, night sweats, fever, fatigue, loss of appetite.",
+      "hindi": "टीबी के लक्षण: लगातार खांसी (3 सप्ताह से ज्यादा), खून के साथ खांसी, छाती में दर्द, वजन कम होना, रात को पसीना, बुखार, थकान, भूख न लगना।"
+    },
+    "diabetes": {
+      "english": "Diabetes symptoms: Excessive thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, slow-healing wounds, frequent infections.",
+      "hindi": "डायबिटीज के लक्षण: अधिक प्यास लगना, बार-बार पेशाब आना, अकारण वजन कम होना, थकान, धुंधला दिखना, घाव का देरी से भरना, बार-बार इन्फेक्शन।"
+    },
+    "hypertension": {
+      "english": "High blood pressure symptoms: Often silent, but may include headaches, shortness of breath, nosebleeds, chest pain, dizziness, and vision problems.",
+      "hindi": "हाई ब्लड प्रेशर के लक्षण: अक्सर मौन होते हैं, लेकिन सिरदर्द, सांस फूलना, नकसीर, छाती में दर्द, चक्कर आना, और दृष्टि संबंधी समस्याएं हो सकती हैं।"
+    },
+    "hepatitis": {
+      "english": "Hepatitis symptoms: Fatigue, nausea, abdominal pain, loss of appetite, low-grade fever, dark urine, clay-colored stools, joint pain, and jaundice (yellowing of skin and eyes).",
+      "hindi": "हेपेटाइटिस के लक्षण: थकान, जी मिचलाना, पेट दर्द, भूख न लगना, हल्का बुखार, गहरे रंग का पेशाब, मिट्टी के रंग का मल, जोड़ों में दर्द, और पीलिया (त्वचा और आंखों का पीला होना)।"
+    },
+    "heart_attack": {
+      "english": "Heart attack symptoms: Chest pain or discomfort, shortness of breath, pain in arms/back/neck/jaw, cold sweats, nausea, lightheadedness. Women may experience different symptoms.",
+      "hindi": "हार्ट अटैक के लक्षण: छाती में दर्द या बेचैनी, सांस फूलना, बांह/पीठ/गर्दन/जबड़े में दर्द, ठंडा पसीना, जी मिचलाना, चक्कर आना। महिलाओं में अलग लक्षण हो सकते हैं।"
+    }
+  },
+  "treatment_guidelines": {
+    "malaria": {
+      "english": "Malaria treatment: Seek immediate medical attention. Treatment includes antimalarial medications like Chloroquine, Artemisinin-based therapy, or Quinine depending on the type and severity.",
+      "hindi": "मलेरिया का इलाज: तुरंत चिकित्सा सहायता लें। इलाज में क्लोरोक्वीन, आर्टेमिसिनिन-आधारित थेरेपी, या क्विनाइन जैसी दवाएं शामिल हैं, जो प्रकार और गंभीरता पर निर्भर करती हैं।"
+    },
+    "dengue": {
+      "english": "Dengue treatment: No specific antiviral treatment. Focus on symptom management: rest, hydration, paracetamol for fever. Avoid aspirin. Seek immediate care for warning signs.",
+      "hindi": "डेंगू का इलाज: कोई विशिष्ट एंटीवायरल इलाज नहीं। लक्षणों का प्रबंधन करें: आराम, हाइड्रेशन, बुखार के लिए पैरासिटामोल। एस्प्रिन से बचें। खतरे के संकेतों पर तुरंत चिकित्सा सहायता लें।"
+    },
+    "diabetes": {
+      "english": "Diabetes management: Lifestyle changes, blood sugar monitoring, medication (insulin/oral medications), regular exercise, proper diet, and regular medical check-ups.",
+      "hindi": "डायबिटीज का प्रबंधन: जीवनशैली में बदलाव, ब्लड शुगर मॉनिटरिंग, दवा (इंसुलिन/मौखिक दवाएं), नियमित व्यायाम, उचित आहार, और नियमित चिकित्सा जांच।"
+    }
+  },
+  "emergency_contacts": {
+    "national_helplines": {
+      "english": "Emergency Medical Services: 108, National Health Helpline: 1075, Poison Control: 011-1066, Women Helpline: 181",
+      "hindi": "आपातकालीन चिकित्सा सेवा: 108, राष्ट्रीय स्वास्थ्य हेल्पलाइन: 1075, विष नियंत्रण: 011-1066, महिला हेल्पलाइन: 181"
+    },
+    "when_to_call": {
+      "english": "Call emergency services immediately for: chest pain, difficulty breathing, severe bleeding, unconsciousness, suspected stroke, severe allergic reactions, or any life-threatening situation.",
+      "hindi": "तुरंत आपातकालीन सेवाओं को कॉल करें: छाती में दर्द, सांस लेने में कठिनाई, गंभीर खून बहना, बेहोशी, संदिग्ध स्ट्रोक, गंभीर एलर्जी प्रतिक्रिया, या किसी भी जानलेवा स्थिति के लिए।"
+    }
+  },
+  "first_aid_basics": {
+    "cuts_and_wounds": {
+      "english": "Clean hands, stop bleeding with pressure, clean wound with water, apply antiseptic, cover with sterile bandage. Seek medical help for deep cuts.",
+      "hindi": "हाथ साफ करें, दबाव डालकर खून रोकें, पानी से घाव साफ करें, एंटीसेप्टिक लगाएं, बाँझ पट्टी से ढकें। गहरे घावों के लिए चिकित्सा सहायता लें।"
+    },
+    "burns": {
+      "english": "Cool the burn with cold water for 10-20 minutes, remove jewelry/clothing if not stuck, cover with clean cloth, do not use ice or oils. Seek help for severe burns.",
+      "hindi": "10-20 मिनट तक ठंडे पानी से जले हुए हिस्से को ठंडा करें, अगर चिपके न हों तो गहने/कपड़े हटाएं, साफ कपड़े से ढकें, बर्फ या तेल का उपयोग न करें। गंभीर जलने पर सहायता लें।"
+    },
+    "choking": {
+      "english": "Encourage coughing, give 5 back blows between shoulder blades, perform Heimlich maneuver (5 abdominal thrusts), alternate until object dislodges or person becomes unconscious.",
+      "hindi": "खांसने को प्रोत्साहित करें, कंधे की हड्डियों के बीच 5 बार पीठ पर मारें, हेमलिच मैन्युवर करें (5 पेट के धक्के), तब तक दोहराएं जब तक वस्तु निकल न जाए या व्यक्ति बेहोश न हो जाए।"
+    }
+  },
+  "vaccination_schedule": {
+    "routine_vaccines": {
+      "english": "Essential vaccines: BCG, Hepatitis B, DPT, Polio, MMR, Typhoid, Hepatitis A, HPV (for girls), Influenza (annual), COVID-19",
+      "hindi": "आवश्यक टीके: BCG, हेपेटाइटिस B, DPT, पोलियो, MMR, टाइफाइड, हेपेटाइटिस A, HPV (लड़कियों के लिए), इन्फ्लूएंजा (वार्षिक), COVID-19"
+    },
+    "travel_vaccines": {
+      "english": "Travel vaccines (consult doctor): Japanese Encephalitis, Yellow Fever, Meningococcal, Rabies pre-exposure, Cholera - depending on destination",
+      "hindi": "यात्रा टीके (डॉक्टर से सलाह लें): जापानी एन्सेफलाइटिस, येलो फीवर, मेनिंगोकोकल, रेबीज प्री-एक्सपोज़र, हैजा - गंतव्य पर निर्भर करता है"
+    }
+  },
+  "mental_health": {
+    "stress_management": {
+      "english": "Manage stress through: regular exercise, adequate sleep, healthy diet, meditation, deep breathing, social support, time management, and professional help when needed.",
+      "hindi": "तनाव प्रबंधन: नियमित व्यायाम, पर्याप्त नींद, स्वस्थ आहार, ध्यान, गहरी सांस लेना, सामाजिक सहायता, समय प्रबंधन, और आवश्यकता पड़ने पर पेशेवर मदद।"
+    },
+    "depression_signs": {
+      "english": "Depression warning signs: persistent sadness, loss of interest, fatigue, sleep changes, appetite changes, difficulty concentrating, feelings of worthlessness, thoughts of self-harm.",
+      "hindi": "डिप्रेशन के संकेत: लगातार उदासी, रुचि की हानि, थकान, नींद में बदलाव, भूख में बदलाव, एकाग्रता में कठिनाई, निरर्थकता की भावना, आत्महानि के विचार।"
+    }
+  },
+  "healthy_lifestyle": {
+    "nutrition_tips": {
+      "english": "Balanced nutrition: Include fruits, vegetables, whole grains, lean proteins, nuts, seeds. Limit processed foods, excess sugar, and saturated fats. Stay hydrated with 8-10 glasses of water daily.",
+      "hindi": "संतुलित पोषण: फल, सब्जियां, साबुत अनाज, दुबला प्रोटीन, नट्स, बीज शामिल करें। प्रसंस्कृत खाद्य पदार्थ, अतिरिक्त चीनी और संतृप्त वसा सीमित करें। रोजाना 8-10 गिलास पानी पिएं।"
+    },
+    "exercise_guidelines": {
+      "english": "Exercise recommendations: 150 minutes moderate aerobic activity weekly, strength training 2+ days, flexibility exercises, balance training (for elderly). Start gradually and consult doctor if needed.",
+      "hindi": "व्यायाम की सिफारिशें: साप्ताहिक 150 मिनट मध्यम एरोबिक गतिविधि, 2+ दिन शक्ति प्रशिक्षण, लचीलेपन के व्यायाम, संतुलन प्रशिक्षण (बुजुर्गों के लिए)। धीरे-धीरे शुरू करें और आवश्यकता पड़ने पर डॉक्टर से सलाह लें।"
+    }
+  },
+  "seasonal_health": {
+    "monsoon_precautions": {
+      "english": "Monsoon health tips: Drink boiled/filtered water, eat hot cooked food, avoid street food, keep surroundings clean, use mosquito protection, maintain personal hygiene.",
+      "hindi": "मानसून स्वास्थ्य सुझाव: उबला/फिल्टर किया पानी पिएं, गर्म पका हुआ खाना खाएं, स्ट्रीट फूड से बचें, आसपास सफाई रखें, मच्छरों से बचाव करें, व्यक्तिगत स्वच्छता बनाए रखें।"
+    },
+    "winter_care": {
+      "english": "Winter health care: Stay warm, moisturize skin, maintain vitamin D levels, eat immune-boosting foods, stay hydrated, exercise indoors, get flu vaccination.",
+      "hindi": "सर्दियों की देखभाल: गर्म रहें, त्वचा को नमीयुक्त रखें, विटामिन D का स्तर बनाए रखें, इम्यूनिटी बढ़ाने वाले खाद्य पदार्थ खाएं, हाइड्रेटेड रहें, घर के अंदर व्यायाम करें, फ्लू का टीका लगवाएं।"
+    }
+  }
+}

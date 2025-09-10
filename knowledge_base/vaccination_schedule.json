@@ -1,0 +1,355 @@
+{
+  "vaccines": {
+    "polio": {
+      "schedule": {
+        "english": "Polio vaccine (OPV/IPV) schedule: Birth dose, 6 weeks, 10 weeks, 14 weeks, and booster at 16-24 months. Additional doses during campaigns.",
+        "hindi": "पोलियो टीका (OPV/IPV) कार्यक्रम: जन्म के समय, 6 सप्ताह, 10 सप्ताह, 14 सप्ताह, और 16-24 महीने में बूस्टर। अभियानों के दौरान अतिरिक्त खुराक।"
+      },
+      "importance": {
+        "english": "Polio vaccination is crucial to prevent paralysis and ensure community immunity.",
+        "hindi": "लकवा से बचने और सामुदायिक प्रतिरक्षा के लिए पोलियो टीकाकरण महत्वपूर्ण है।"
+      },
+      "type": "Live attenuated (OPV) / Inactivated (IPV)",
+      "side_effects": {
+        "english": "Mild fever, irritability. Rare: vaccine-associated paralysis (1 in 2.4 million doses)",
+        "hindi": "हल्का बुखार, चिड़चिड़ाहट। दुर्लभ: टीका-संबंधित लकवा (24 लाख खुराक में 1)"
+      },
+      "contraindications": {
+        "english": "Severe illness, immunodeficiency (for OPV), pregnancy in household (for OPV)",
+        "hindi": "गंभीर बीमारी, प्रतिरक्षा की कमी (OPV के लिए), घर में गर्भावस्था (OPV के लिए)"
+      }
+    },
+    "measles": {
+      "schedule": {
+        "english": "Measles vaccine (MR/MMR): First dose at 9-12 months, second dose at 16-24 months. Catch-up campaigns for missed children.",
+        "hindi": "खसरा टीका (MR/MMR): पहली खुराक 9-12 महीने में, दूसरी खुराक 16-24 महीने में। छूटे हुए बच्चों के लिए कैच-अप अभियान।"
+      },
+      "importance": {
+        "english": "Measles vaccination prevents serious complications including brain damage and death.",
+        "hindi": "खसरा टीकाकरण से दिमागी नुकसान और मृत्यु सहित गंभीर जटिलताओं से बचाव होता है।"
+      },
+      "type": "Live attenuated",
+      "side_effects": {
+        "english": "Mild fever, rash, joint pain. Serious reactions are rare",
+        "hindi": "हल्का बुखार, दाने, जोड़ों का दर्द। गंभीर प्रतिक्रियाएं दुर्लभ हैं"
+      },
+      "contraindications": {
+        "english": "Pregnancy, immunodeficiency, severe illness, recent blood transfusion",
+        "hindi": "गर्भावस्था, प्रतिरक्षा की कमी, गंभीर बीमारी, हाल की रक्त आधान"
+      }
+    },
+    "hepatitis_b": {
+      "schedule": {
+        "english": "Hepatitis B vaccine: Birth dose within 24 hours, then at 6 weeks, 10 weeks, and 14 weeks with DPT.",
+        "hindi": "हेपेटाइटिस बी टीका: जन्म के 24 घंटे में, फिर 6 सप्ताह, 10 सप्ताह, और 14 सप्ताह में DPT के साथ।"
+      },
+      "importance": {
+        "english": "Hepatitis B vaccination protects against liver infection and liver cancer.",
+        "hindi": "हेपेटाइटिस बी टीकाकरण से लिवर के संक्रमण और कैंसर से बचाव होता है।"
+      },
+      "type": "Recombinant",
+      "side_effects": {
+        "english": "Pain at injection site, mild fever, fatigue",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्का बुखार, थकान"
+      },
+      "contraindications": {
+        "english": "Severe allergic reaction to previous dose or yeast",
+        "hindi": "पिछली खुराक या खमीर से गंभीर एलर्जी प्रतिक्रिया"
+      }
+    },
+    "bcg": {
+      "schedule": {
+        "english": "BCG vaccine: Single dose at birth or as early as possible within 1 year of age.",
+        "hindi": "BCG टीका: जन्म के समय या 1 साल की उम्र में जितनी जल्दी हो सके एक खुराक।"
+      },
+      "importance": {
+        "english": "BCG vaccination provides protection against severe forms of tuberculosis in children.",
+        "hindi": "BCG टीकाकरण से बच्चों में टीबी के गंभीर रूप से बचाव होता है।"
+      },
+      "type": "Live attenuated",
+      "side_effects": {
+        "english": "Small ulcer at injection site, swollen lymph nodes, small scar formation",
+        "hindi": "इंजेक्शन वाली जगह छोटा घाव, सूजे हुए लसीका ग्रंथियां, छोटा निशान"
+      },
+      "contraindications": {
+        "english": "Immunodeficiency, active TB, severe illness, pregnancy",
+        "hindi": "प्रतिरक्षा की कमी, सक्रिय टीबी, गंभीर बीमारी, गर्भावस्था"
+      }
+    },
+    "dpt": {
+      "schedule": {
+        "english": "DPT vaccine: Primary series at 6, 10, 14 weeks. Boosters at 16-24 months and 5-6 years. Td every 10 years for adults.",
+        "hindi": "DPT टीका: प्राथमिक श्रृंखला 6, 10, 14 सप्ताह में। बूस्टर 16-24 महीने और 5-6 साल में। वयस्कों के लिए हर 10 साल में Td।"
+      },
+      "importance": {
+        "english": "Protects against diphtheria, pertussis (whooping cough), and tetanus - all potentially fatal diseases.",
+        "hindi": "डिप्थीरिया, कुकुर खांसी, और टिटनेस से बचाव - सभी संभावित घातक बीमारियां।"
+      },
+      "type": "Inactivated toxoids and killed bacteria",
+      "side_effects": {
+        "english": "Pain, redness at injection site, fever, irritability, drowsiness",
+        "hindi": "इंजेक्शन वाली जगह दर्द, लालिमा, बुखार, चिड़चिड़ाहट, नींद आना"
+      },
+      "contraindications": {
+        "english": "Severe illness, progressive neurological disorder, severe reaction to previous dose",
+        "hindi": "गंभीर बीमारी, प्रगतिशील न्यूरोलॉजिकल विकार, पिछली खुराक से गंभीर प्रतिक्रिया"
+      }
+    },
+    "hib": {
+      "schedule": {
+        "english": "Hib vaccine: 6, 10, 14 weeks with DPT. Booster at 15-18 months.",
+        "hindi": "हिब टीका: DPT के साथ 6, 10, 14 सप्ताह में। 15-18 महीने में बूस्टर।"
+      },
+      "importance": {
+        "english": "Prevents Haemophilus influenzae type b infections causing meningitis and pneumonia in children.",
+        "hindi": "बच्चों में मेनिंजाइटिस और निमोनिया का कारण बनने वाले हीमोफिलस इन्फ्लूएंजा टाइप बी संक्रमण से बचाव।"
+      },
+      "type": "Conjugate",
+      "side_effects": {
+        "english": "Pain at injection site, mild fever, irritability",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्का बुखार, चिड़चिड़ाहट"
+      },
+      "contraindications": {
+        "english": "Severe illness, known hypersensitivity",
+        "hindi": "गंभीर बीमारी, ज्ञात अतिसंवेदनशीलता"
+      }
+    },
+    "pneumococcal": {
+      "schedule": {
+        "english": "PCV vaccine: 6, 10, 14 weeks. Booster at 12-15 months. PPSV23 for high-risk adults.",
+        "hindi": "PCV टीका: 6, 10, 14 सप्ताह में। 12-15 महीने में बूस्टर। उच्च जोखिम वाले वयस्कों के लिए PPSV23।"
+      },
+      "importance": {
+        "english": "Protects against pneumococcal diseases including pneumonia, meningitis, and blood infections.",
+        "hindi": "निमोनिया, मेनिंजाइटिस, और रक्त संक्रमण सहित न्यूमोकोकल रोगों से बचाव।"
+      },
+      "type": "Conjugate (PCV) / Polysaccharide (PPSV)",
+      "side_effects": {
+        "english": "Pain, redness at injection site, mild fever, decreased appetite",
+        "hindi": "इंजेक्शन वाली जगह दर्द, लालिमा, हल्का बुखार, भूख में कमी"
+      },
+      "contraindications": {
+        "english": "Severe illness, known allergy to vaccine components",
+        "hindi": "गंभीर बीमारी, टीके के घटकों से ज्ञात एलर्जी"
+      }
+    },
+    "rotavirus": {
+      "schedule": {
+        "english": "Rotavirus vaccine: 6, 10, 14 weeks (oral vaccine). Must complete series by 8 months of age.",
+        "hindi": "रोटावायरस टीका: 6, 10, 14 सप्ताह में (मुंह से दी जाने वाली)। 8 महीने की उम्र तक पूरी श्रृंखला पूरी करनी चाहिए।"
+      },
+      "importance": {
+        "english": "Prevents severe diarrhea and dehydration caused by rotavirus in infants and young children.",
+        "hindi": "शिशुओं और छोटे बच्चों में रोटावायरस के कारण होने वाले गंभीर दस्त और निर्जलीकरण से बचाव।"
+      },
+      "type": "Live attenuated (oral)",
+      "side_effects": {
+        "english": "Mild diarrhea, vomiting, irritability. Rare: intussusception",
+        "hindi": "हल्के दस्त, उल्टी, चिड़चिड़ाहट। दुर्लभ: आंत में आंत का फंसना"
+      },
+      "contraindications": {
+        "english": "Severe immunodeficiency, history of intussusception, severe gastroenteritis",
+        "hindi": "गंभीर प्रतिरक्षा की कमी, आंत में फंसाव का इतिहास, गंभीर आंत्रशोथ"
+      }
+    },
+    "japanese_encephalitis": {
+      "schedule": {
+        "english": "JE vaccine: 9-12 months, booster at 16-24 months. Additional doses for endemic areas as per local guidelines.",
+        "hindi": "JE टीका: 9-12 महीने, 16-24 महीने में बूस्टर। स्थानिक क्षेत्रों के लिए स्थानीय दिशानिर्देशों के अनुसार अतिरिक्त खुराकें।"
+      },
+      "importance": {
+        "english": "Prevents Japanese Encephalitis, a serious brain infection transmitted by mosquitoes.",
+        "hindi": "मच्छरों द्वारा फैलाए जाने वाले गंभीर दिमागी संक्रमण जापानी एन्सेफलाइटिस से बचाव।"
+      },
+      "type": "Inactivated",
+      "side_effects": {
+        "english": "Pain at injection site, mild fever, headache, muscle aches",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्का बुखार, सिरदर्द, मांसपेशियों में दर्द"
+      },
+      "contraindications": {
+        "english": "Severe illness, known hypersensitivity to vaccine components",
+        "hindi": "गंभीर बीमारी, टीके के घटकों से ज्ञात अतिसंवेदनशीलता"
+      }
+    },
+    "typhoid": {
+      "schedule": {
+        "english": "Typhoid vaccine: Single dose at 2 years, then every 3 years for high-risk individuals or travel to endemic areas.",
+        "hindi": "टाइफाइड टीका: 2 साल की उम्र में एक खुराक, फिर उच्च जोखिम वाले व्यक्तियों या स्थानिक क्षेत्रों की यात्रा के लिए हर 3 साल में।"
+      },
+      "importance": {
+        "english": "Protects against typhoid fever, a serious bacterial infection spread through contaminated food and water.",
+        "hindi": "दूषित भोजन और पानी से फैलने वाले गंभीर बैक्टीरियल संक्रमण टाइफाइड बुखार से बचाव।"
+      },
+      "type": "Conjugate / Live attenuated (oral)",
+      "side_effects": {
+        "english": "Pain at injection site, fever, headache. Oral: nausea, stomach upset",
+        "hindi": "इंजेक्शन वाली जगह दर्द, बुखार, सिरदर्द। मुंह से: जी मिचलाना, पेट की खराबी"
+      },
+      "contraindications": {
+        "english": "Severe illness, immunodeficiency (for live vaccine), antibiotic use (for oral vaccine)",
+        "hindi": "गंभीर बीमारी, प्रतिरक्षा की कमी (जीवित टीके के लिए), एंटीबायोटिक उपयोग (मुंह के टीके के लिए)"
+      }
+    },
+    "hepatitis_a": {
+      "schedule": {
+        "english": "Hepatitis A vaccine: First dose at 12-18 months, second dose 6-12 months later. For travel: 2 weeks before departure.",
+        "hindi": "हेपेटाइटिस ए टीका: 12-18 महीने में पहली खुराक, 6-12 महीने बाद दूसरी खुराक। यात्रा के लिए: प्रस्थान से 2 सप्ताह पहले।"
+      },
+      "importance": {
+        "english": "Prevents hepatitis A, a liver infection spread through contaminated food, water, or close contact.",
+        "hindi": "दूषित भोजन, पानी या निकट संपर्क से फैलने वाले लिवर संक्रमण हेपेटाइटिस ए से बचाव।"
+      },
+      "type": "Inactivated",
+      "side_effects": {
+        "english": "Pain at injection site, mild fever, fatigue, loss of appetite",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्का बुखार, थकान, भूख न लगना"
+      },
+      "contraindications": {
+        "english": "Severe illness, known hypersensitivity to vaccine components",
+        "hindi": "गंभीर बीमारी, टीके के घटकों से ज्ञात अतिसंवेदनशीलता"
+      }
+    },
+    "varicella": {
+      "schedule": {
+        "english": "Varicella vaccine: First dose at 12-15 months, second dose at 4-6 years. For adults: 2 doses 4-8 weeks apart.",
+        "hindi": "वैरिसेला टीका: 12-15 महीने में पहली खुराक, 4-6 साल में दूसरी खुराक। वयस्कों के लिए: 4-8 सप्ताह के अंतर पर 2 खुराकें।"
+      },
+      "importance": {
+        "english": "Prevents chickenpox, which can cause serious complications including pneumonia and encephalitis.",
+        "hindi": "चिकनपॉक्स से बचाव, जो निमोनिया और एन्सेफलाइटिस सहित गंभीर जटिलताएं पैदा कर सकता है।"
+      },
+      "type": "Live attenuated",
+      "side_effects": {
+        "english": "Pain at injection site, mild rash, fever. Rare: severe allergic reactions",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्के दाने, बुखार। दुर्लभ: गंभीर एलर्जी प्रतिक्रियाएं"
+      },
+      "contraindications": {
+        "english": "Pregnancy, immunodeficiency, severe illness, recent blood products",
+        "hindi": "गर्भावस्था, प्रतिरक्षा की कमी, गंभीर बीमारी, हाल के रक्त उत्पाद"
+      }
+    },
+    "hpv": {
+      "schedule": {
+        "english": "HPV vaccine: Girls 9-14 years - 2 doses 6 months apart. Girls/boys 15+ years - 3 doses (0, 1-2, 6 months).",
+        "hindi": "HPV टीका: 9-14 साल की लड़कियां - 6 महीने के अंतर पर 2 खुराकें। 15+ साल की लड़कियां/लड़के - 3 खुराकें (0, 1-2, 6 महीने)।"
+      },
+      "importance": {
+        "english": "Prevents cervical cancer and other cancers caused by Human Papillomavirus.",
+        "hindi": "ह्यूमन पेपिलोमावायरस के कारण होने वाले गर्भाशय ग्रीवा के कैंसर और अन्य कैंसर से बचाव।"
+      },
+      "type": "Recombinant",
+      "side_effects": {
+        "english": "Pain at injection site, swelling, redness, dizziness, fainting (especially in adolescents)",
+        "hindi": "इंजेक्शन वाली जगह दर्द, सूजन, लालिमा, चक्कर आना, बेहोशी (विशेषकर किशोरों में)"
+      },
+      "contraindications": {
+        "english": "Pregnancy, severe illness, known hypersensitivity to vaccine components",
+        "hindi": "गर्भावस्था, गंभीर बीमारी, टीके के घटकों से ज्ञात अतिसंवेदनशीलता"
+      }
+    },
+    "influenza": {
+      "schedule": {
+        "english": "Influenza vaccine: Annual vaccination for all above 6 months. Best given before flu season starts (September-October).",
+        "hindi": "इन्फ्लूएंजा टीका: 6 महीने से ऊपर सभी के लिए वार्षिक टीकाकरण। फ्लू सीजन शुरू होने से पहले (सितंबर-अक्टूबर) देना सबसे अच्छा।"
+      },
+      "importance": {
+        "english": "Reduces risk of flu and its complications, especially important for high-risk groups.",
+        "hindi": "फ्लू और इसकी जटिलताओं के जोखिम को कम करता है, विशेषकर उच्च जोखिम वाले समूहों के लिए महत्वपूर्ण।"
+      },
+      "type": "Inactivated / Live attenuated (nasal)",
+      "side_effects": {
+        "english": "Pain at injection site, mild fever, muscle aches. Nasal: runny nose, congestion",
+        "hindi": "इंजेक्शन वाली जगह दर्द, हल्का बुखार, मांसपेशियों में दर्द। नेज़ल: नाक बहना, जकड़न"
+      },
+      "contraindications": {
+        "english": "Severe egg allergy (for some vaccines), severe illness, immunodeficiency (for live vaccine)",
+        "hindi": "गंभीर अंडे की एलर्जी (कुछ टीकों के लिए), गंभीर बीमारी, प्रतिरक्षा की कमी (जीवित टीके के लिए)"
+      }
+    }
+  },
+  "age_based_schedule": {
+    "birth": {
+      "vaccines": ["BCG", "Hepatitis B (1st dose)", "OPV (0 dose)"],
+      "english": "At birth: BCG, Hepatitis B first dose, and OPV zero dose",
+      "hindi": "जन्म के समय: BCG, हेपेटाइटिस बी पहली खुराक, और OPV शून्य खुराक"
+    },
+    "6_weeks": {
+      "vaccines": ["DPT (1st)", "OPV (1st)", "Hepatitis B (2nd)", "Hib (1st)", "PCV (1st)", "Rotavirus (1st)"],
+      "english": "At 6 weeks: DPT, OPV, Hepatitis B, Hib, PCV, and Rotavirus first doses",
+      "hindi": "6 सप्ताह में: DPT, OPV, हेपेटाइटिस बी, हिब, PCV, और रोटावायरस पहली खुराकें"
+    },
+    "10_weeks": {
+      "vaccines": ["DPT (2nd)", "OPV (2nd)", "Hepatitis B (3rd)", "Hib (2nd)", "PCV (2nd)", "Rotavirus (2nd)"],
+      "english": "At 10 weeks: DPT, OPV, Hepatitis B, Hib, PCV, and Rotavirus second doses",
+      "hindi": "10 सप्ताह में: DPT, OPV, हेपेटाइटिस बी, हिब, PCV, और रोटावायरस दूसरी खुराकें"
+    },
+    "14_weeks": {
+      "vaccines": ["DPT (3rd)", "OPV (3rd)", "Hib (3rd)", "PCV (3rd)", "Rotavirus (3rd)"],
+      "english": "At 14 weeks: DPT, OPV, Hib, PCV, and Rotavirus third doses",
+      "hindi": "14 सप्ताह में: DPT, OPV, हिब, PCV, और रोटावायरस तीसरी खुराकें"
+    },
+    "9_months": {
+      "vaccines": ["Measles (1st)", "Japanese Encephalitis (1st)"],
+      "english": "At 9 months: Measles and Japanese Encephalitis first doses",
+      "hindi": "9 महीने में: खसरा और जापानी एन्सेफलाइटिस पहली खुराकें"
+    },
+    "12_months": {
+      "vaccines": ["Hepatitis A (1st)", "Varicella (1st)", "PCV Booster"],
+      "english": "At 12 months: Hepatitis A, Varicella first doses, and PCV booster",
+      "hindi": "12 महीने में: हेपेटाइटिस ए, वैरिसेला पहली खुराकें, और PCV बूस्टर"
+    },
+    "15_18_months": {
+      "vaccines": ["Hib Booster", "MMR (if not given as MR)"],
+      "english": "At 15-18 months: Hib booster and MMR (if applicable)",
+      "hindi": "15-18 महीने में: हिब बूस्टर और MMR (यदि लागू हो)"
+    },
+    "16_24_months": {
+      "vaccines": ["DPT Booster", "OPV Booster", "Measles (2nd)", "JE (2nd)"],
+      "english": "At 16-24 months: DPT booster, OPV booster, Measles second dose, JE second dose",
+      "hindi": "16-24 महीने में: DPT बूस्टर, OPV बूस्टर, खसरा दूसरी खुराक, JE दूसरी खुराक"
+    },
+    "2_years": {
+      "vaccines": ["Typhoid"],
+      "english": "At 2 years: Typhoid vaccine",
+      "hindi": "2 साल में: टाइफाइड टीका"
+    },
+    "4_6_years": {
+      "vaccines": ["DPT Booster", "OPV Booster", "Varicella (2nd)"],
+      "english": "At 4-6 years: DPT booster, OPV booster, Varicella second dose",
+      "hindi": "4-6 साल में: DPT बूस्टर, OPV बूस्टर, वैरिसेला दूसरी खुराक"
+    },
+    "9_14_years_girls": {
+      "vaccines": ["HPV (2 doses)"],
+      "english": "Girls 9-14 years: HPV vaccine (2 doses, 6 months apart)",
+      "hindi": "9-14 साल की लड़कियां: HPV टीका (2 खुराकें, 6 महीने के अंतर पर)"
+    },
+    "10_years": {
+      "vaccines": ["Td Booster"],
+      "english": "At 10 years: Td booster",
+      "hindi": "10 साल में: Td बूस्टर"
+    },
+    "16_years": {
+      "vaccines": ["Td Booster"],
+      "english": "At 16 years: Td booster",
+      "hindi": "16 साल में: Td बूस्टर"
+    }
+  },
+  "special_populations": {
+    "pregnant_women": {
+      "recommended": {
+        "english": "Td/Tdap (if due), Influenza (during flu season), COVID-19 (as recommended)",
+        "hindi": "Td/Tdap (यदि समय हो), इन्फ्लूएंजा (फ्लू सीजन में), COVID-19 (अनुशंसित अनुसार)"
+      },
+      "contraindicated": {
+        "english": "Live vaccines (MMR, Varicella, Zoster, Live influenza)",
+        "hindi": "जीवित टीके (MMR, वैरिसेला, ज़ोस्टर, जीवित इन्फ्लूएंजा)"
+      }
+    },
+    "immunocompromised": {
+      "special_considerations": {
+        "english": "Avoid live vaccines. May need additional doses or different schedules. Consult immunization specialist.",
+        "hindi": "जीवित टीकों से बचें। अतिरिक्त खुराक या अलग कार्यक्रम की आवश्यकता हो सकती है। टीकाकरण विशेषज्ञ से सलाह लें।"
+      }
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "system_metadata": {
+    "last_updated": "2024-09-10T10:00:00Z",
+    "data_sources": [
+      "Ministry of Health and Family Welfare India",
+      "WHO Disease Outbreak News",
+      "State Health Departments",
+      "NCDC India",
+      "IDSP Network",
+      "Local Health Authorities"
+    ],
+    "update_frequency": "Every 6 hours",
+    "api_endpoints": {
+      "who_disease_outbreaks": "https://www.who.int/api/news/outbreaks",
+      "who_disease_outbreak_news": "https://www.who.int/api/news/diseaseoutbreaknews",
+      "idsp_web_scraping": "https://idsp.mohfw.gov.in/index4.php?lang=1&level=0&linkid=406&lid=3689",
+      "ncdc_web_scraping": "https://www.idsp.mohfw.gov.in/outbreak_d/Home.html",
+      "covid19_india_api": "https://api.covid19india.org/data.json",
+      "outbreak_info_api": "https://api.outbreak.info/",
+      "disease_sh_api": "https://disease.sh/v3/covid-19/countries/india"
+    }
+  },
+  "current_outbreaks": {
+    "Delhi": {
+      "disease": "Dengue",
+      "severity": "High",
+      "cases_reported": 1250,
+      "deaths": 3,
+      "date_first_reported": "2024-08-15",
+      "last_updated": "2024-09-01",
+      "trend": "Increasing",
+      "affected_areas": ["Central Delhi", "South Delhi", "East Delhi"],
+      "coordinates": {
+        "latitude": 28.6139,
+        "longitude": 77.2090
+      },
+      "message": {
+        "english": "⚠️ ALERT: High dengue outbreak reported in Delhi. Take immediate prevention measures. Eliminate standing water and use repellents.",
+        "hindi": "⚠️ चेतावनी: दिल्ली में डेंगू का अधिक प्रकोप दर्ज किया गया है। तुरंत बचाव के उपाय करें। रुका हुआ पानी हटाएं और रिपेलेंट का उपयोग करें।"
+      },
+      "risk_level": 4,
+      "containment_measures": {
+        "english": "Active case surveillance, vector control, public awareness campaigns, hospital preparedness",
+        "hindi": "सक्रिय केस निगरानी, वेक्टर नियंत्रण, जन जागरूकता अभियान, अस्पताल तैयारी"
+      }
+    },
+    "Mumbai": {
+      "disease": "Malaria",
+      "severity": "Medium",
+      "cases_reported": 680,
+      "deaths": 1,
+      "date_first_reported": "2024-08-10",
+      "last_updated": "2024-08-25",
+      "trend": "Stable",
+      "affected_areas": ["Dharavi", "Kurla", "Malad"],
+      "coordinates": {
+        "latitude": 19.0760,
+        "longitude": 72.8777
+      },
+      "message": {
+        "english": "⚠️ Malaria cases increasing in Mumbai. Use mosquito nets and seek medical help for fever symptoms.",
+        "hindi": "⚠️ मुंबई में मलेरिया के मामले बढ़ रहे हैं। मच्छरदानी का उपयोग करें और बुखार के लक्षणों के लिए डॉक्टर से सलाह लें।"
+      },
+      "risk_level": 3,
+      "containment_measures": {
+        "english": "Mosquito control activities, distribution of bed nets, health education",
+        "hindi": "मच्छर नियंत्रण गतिविधियां, मच्छरदानी वितरण, स्वास्थ्य शिक्षा"
+      }
+    },
+    "Lucknow": {
+      "disease": "Chikungunya",
+      "severity": "Medium",
+      "cases_reported": 420,
+      "deaths": 0,
+      "date_first_reported": "2024-08-20",
+      "last_updated": "2024-08-30",
+      "trend": "Decreasing",
+      "affected_areas": ["Gomti Nagar", "Hazratganj", "Aminabad"],
+      "coordinates": {
+        "latitude": 26.8467,
+        "longitude": 80.9462
+      },
+      "message": {
+        "english": "⚠️ Chikungunya outbreak detected in Lucknow. Prevent mosquito breeding and consult doctor for joint pain and fever.",
+        "hindi": "⚠️ लखनऊ में चिकनगुनिया का प्रकोप पाया गया है। मच्छरों का प्रजनन रोकें और जोड़ों के दर्द व बुखार के लिए डॉक्टर से सलाह लें।"
+      },
+      "risk_level": 3,
+      "containment_measures": {
+        "english": "Source reduction, community mobilization, clinical management training",
+        "hindi": "स्रोत कमी, सामुदायिक जुटाव, क्लिनिकल प्रबंधन प्रशिक्षण"
+      }
+    }
+  },
+  "severity_levels": {
+    "1": {
+      "level": "Low",
+      "color": "green",
+      "description": {
+        "english": "Isolated cases, under control",
+        "hindi": "अलग-थलग मामले, नियंत्रण में"
+      }
+    },
+    "2": {
+      "level": "Moderate",
+      "color": "yellow",
+      "description": {
+        "english": "Localized outbreak, monitoring required",
+        "hindi": "स्थानीयकृत प्रकोप, निगरानी आवश्यक"
+      }
+    },
+    "3": {
+      "level": "High",
+      "color": "orange",
+      "description": {
+        "english": "Significant outbreak, active intervention needed",
+        "hindi": "महत्वपूर्ण प्रकोप, सक्रिय हस्तक्षेप आवश्यक"
+      }
+    },
+    "4": {
+      "level": "Critical",
+      "color": "red",
+      "description": {
+        "english": "Major outbreak, emergency response activated",
+        "hindi": "बड़ा प्रकोप, आपातकालीन प्रतिक्रिया सक्रिय"
+      }
+    },
+    "5": {
+      "level": "Emergency",
+      "color": "darkred",
+      "description": {
+        "english": "Public health emergency, immediate action required",
+        "hindi": "सार्वजनिक स्वास्थ्य आपातकाल, तत्काल कार्रवाई आवश्यक"
+      }
+    }
+  },
+  "watchlist_diseases": [
+    "COVID-19",
+    "Influenza H1N1",
+    "Japanese Encephalitis",
+    "Typhoid",
+    "Hepatitis A",
+    "Cholera",
+    "Diarrheal diseases",
+    "Meningitis",
+    "Scrub Typhus",
+    "Leptospirosis",
+    "Zika Virus",
+    "Crimean-Congo Hemorrhagic Fever"
+  ],
+  "seasonal_alerts": {
+    "monsoon": {
+      "months": ["June", "July", "August", "September"],
+      "high_risk_diseases": ["Dengue", "Malaria", "Chikungunya", "Typhoid", "Hepatitis A", "Diarrheal diseases"],
+      "message": {
+        "english": "Monsoon season increases risk of vector-borne and water-borne diseases. Maintain hygiene and prevent water stagnation.",
+        "hindi": "मानसून के मौसम में वेक्टर-जनित और पानी से फैलने वाली बीमारियों का खतरा बढ़ जाता है। स्वच्छता बनाए रखें और पानी के ठहराव को रोकें।"
+      }
+    },
+    "winter": {
+      "months": ["November", "December", "January", "February"],
+      "high_risk_diseases": ["Influenza", "Pneumonia", "Common Cold", "H1N1"],
+      "message": {
+        "english": "Winter season increases respiratory infections. Maintain warmth, get vaccinated, and avoid crowded places if sick.",
+        "hindi": "सर्दी के मौसम में श्वसन संक्रमण बढ़ जाते हैं। गर्मी बनाए रखें, टीकाकरण कराएं, और बीमार होने पर भीड़भाड़ वाली जगहों से बचें।"
+      }
+    },
+    "summer": {
+      "months": ["March", "April", "May"],
+      "high_risk_diseases": ["Heat Stroke", "Dehydration", "Food poisoning", "Chickenpox"],
+      "message": {
+        "english": "Summer heat increases risk of heat-related illnesses and food contamination. Stay hydrated and maintain food hygiene.",
+        "hindi": "गर्मी की गर्मी से गर्मी संबंधी बीमारियों और भोजन संदूषण का खतरा बढ़ जाता है। हाइड्रेटेड रहें और भोजन की स्वच्छता बनाए रखें।"
+      }
+    }
+  },
+  "real_time_monitoring": {
+    "data_collection_methods": [
+      "Hospital surveillance systems",
+      "Laboratory reporting networks",
+      "Community health worker reports",
+      "Syndromic surveillance",
+      "Social media monitoring",
+      "News media scanning",
+      "Travel health reports",
+      "School absenteeism tracking"
+    ],
+    "alert_triggers": {
+      "case_threshold": {
+        "description": "Automatic alert when cases exceed expected baseline",
+        "calculation": "Cases > (Historical average + 2 standard deviations)"
+      },
+      "clustering": {
+        "description": "Geographic or temporal clustering of cases",
+        "criteria": "≥3 cases within 5km radius in 7 days"
+      },
+      "severity_change": {
+        "description": "Increase in case fatality rate or hospitalization",
+        "threshold": ">20% increase from baseline"
+      },
+      "new_pathogen": {
+        "description": "Detection of unusual or new pathogen",
+        "action": "Immediate investigation and reporting"
+      }
+    }
+  },
+  "notification_system": {
+    "channels": [
+      "SMS alerts",
+      "Mobile app notifications",
+      "Email bulletins",
+      "WhatsApp updates",
+      "Website banners",
+      "Social media posts",
+      "Local media alerts"
+    ],
+    "target_audiences": {
+      "general_public": {
+        "frequency": "Weekly summaries + Immediate high-priority alerts",
+        "content": "Prevention tips, outbreak updates, health advisories"
+      },
+      "healthcare_workers": {
+        "frequency": "Daily updates + Immediate alerts",
+        "content": "Clinical guidelines, case definitions, reporting requirements"
+      },
+      "authorities": {
+        "frequency": "Real-time alerts + Daily situation reports",
+        "content": "Epidemiological data, response coordination, resource needs"
+      }
+    }
+  },
+  "geographic_coverage": {
+    "national_level": ["All states and union territories"],
+    "state_level": ["District-wise monitoring"],
+    "city_level": ["Ward/zone-wise tracking"],
+    "border_monitoring": ["International borders", "Airport surveillance", "Port health"]
+  },
+  "integration_apis": {
+    "weather_data": {
+      "purpose": "Correlate disease patterns with weather conditions",
+      "source": "IMD India"
+    },
+    "population_data": {
+      "purpose": "Calculate attack rates and risk assessment",
+      "source": "Census data, Municipal corporations"
+    },
+    "travel_data": {
+      "purpose": "Track disease spread through travel patterns",
+      "source": "Immigration, Airlines, Railways"
+    },
+    "laboratory_network": {
+      "purpose": "Real-time confirmation of suspected cases",
+      "source": "ICMR labs, State labs, Private labs"
+    }
+  },
+  "response_protocols": {
+    "level_1_response": {
+      "triggers": "1-10 cases",
+      "actions": ["Enhanced surveillance", "Health education", "Contact tracing"]
+    },
+    "level_2_response": {
+      "triggers": "11-50 cases or clustering",
+      "actions": ["Rapid response team deployment", "Public health measures", "Media alerts"]
+    },
+    "level_3_response": {
+      "triggers": ">50 cases or critical severity",
+      "actions": ["Emergency response", "Resource mobilization", "Interstate coordination"]
+    },
+    "level_4_response": {
+      "triggers": "Multi-state outbreak or high mortality",
+      "actions": ["National emergency", "International notification", "Military assistance"]
+    }
+  },
+  "general_advisory": {
+    "english": "Stay updated with local health department advisories. Maintain hygiene, use preventive measures, and seek immediate medical attention for symptoms. Report unusual illness patterns to health authorities.",
+    "hindi": "स्थानीय स्वास्थ्य विभाग की सलाह से अपडेट रहें। साफ-सफाई रखें, बचाव के उपाय करें, और लक्षणों के लिए तुरंत डॉक्टर से मिलें। असामान्य बीमारी के पैटर्न की रिपोर्ट स्वास्थ्य अधिकारियों को करें।"
+  },
+  "contact_information": {
+    "national_surveillance": {
+      "ncdc_helpline": "011-23913148",
+      "mohfw_control_room": "011-23978046",
+      "email": "ncdc@gov.in"
+    },
+    "emergency_reporting": {
+      "toll_free": "1075",
+      "sms": "Send 'HEALTH' to 166"
+    },
+    "regional_offices": {
+      "north": "011-23913148",
+      "south": "044-28369620",
+      "east": "033-24564325",
+      "west": "022-26127394",
+      "northeast": "0361-2736624",
+      "central": "0755-2670695"
+    }
+  }
+}
