@@ -9,17 +9,19 @@ This is the repository for HealthBot, a chatbot designed to provide information 
 - `knowledge_base/`: Contains the knowledge base for the chatbot in JSON format.
 - `models/`: Contains the trained Rasa models.
 - `config.yml`: The main configuration file for the Rasa model.
-- `credentials.yml`: Contains credentials for connected services.
 - `domain.yml`: The domain file for the chatbot, defining intents, entities, slots, responses, and actions.
 - `endpoints.yml`: The endpoints configuration file for connecting to custom actions and other services.
 - `requirements.txt`: The Python dependencies for this project.
+- `.gitignore`: Specifies intentionally untracked files to ignore.
+- `.rasa/`: Caches information between training runs.
+- `.venv/`: Contains the Python virtual environment.
 
 ## Installation
 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/ai-disease-chatbot.git
-    cd ai-disease-chatbot/healthbot_prototype
+    cd ai-disease-chatbot
     ```
 2.  **Create a virtual environment and install dependencies:**
     ```bash
